@@ -78,8 +78,18 @@ a:link {
     color:var(--color-primary);
 }
 
-.section-header{
-    text-align: var(--section-header-align);
+.section-header {
+  text-align: var(--section-header-align);
+  padding: var(--section-header-padding);
+}
+
+.section-body {
+  padding: var(--section-body-padding);
+}
+
+.section-footer {
+  padding: var(--section-footer-padding);
+  text-align: var(--section-footer-align);
 }
 
 .section-tagline{
@@ -106,6 +116,12 @@ a:link {
   margin-left: auto;
   margin-right: auto;
 }
+
+
+footer {
+  padding: var(--footer-padding);
+}
+
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 html {
