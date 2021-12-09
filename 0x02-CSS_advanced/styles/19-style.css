@@ -188,6 +188,11 @@ ul.row {
   font-size: var(--font-size-small);
   color: var(--text-color);
 }
+
+.footer ul {
+  text-align: right;
+}
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 html {
   line-height: 1.15;
