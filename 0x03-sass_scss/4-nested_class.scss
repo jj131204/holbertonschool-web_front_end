@@ -1,0 +1,11 @@
+/* text-color */
+
+$text-color-1:#3D3D3D;
+$text-color-2:#FF0000;
+
+body {
+	color:$text-color-1;
+	.red {
+		color:$text-color-2;
+	}
+}
