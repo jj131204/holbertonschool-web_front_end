@@ -1,0 +1,15 @@
+/* To invoke a mixin use @include and the name of the mixin to invoke  */
+
+@mixin my-margin-mixin ($property) {
+    margin-left: $property;
+    margin-right: $property;
+}
+
+
+body {
+    @include my-margin-mixin(10px);
+}
+
+div {
+    @include my-margin-mixin(15px);
+}
