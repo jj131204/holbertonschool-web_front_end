@@ -1,0 +1,11 @@
+/* for each */
+
+@import "11-photos.scss";
+
+/* @extend is like if it inheriths the properties that are in .info (in this case) */
+@each $names in $list-names {
+
+	.photo-#{$names} {
+		background: image-url("photos/#{$names}.jpg") no-repeat;
+  }
+}

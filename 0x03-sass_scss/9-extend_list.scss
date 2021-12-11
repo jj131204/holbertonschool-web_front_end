@@ -1,0 +1,15 @@
+/* @extend is like if it inheriths the properties that are in .info (in this case) */
+
+.info {
+    font-size: 12px;
+}
+
+.success {
+    @extend .info;
+    color: #00FF00;
+}
+
+.warning {
+    @extend .info;
+    color: #FF0000;
+}
