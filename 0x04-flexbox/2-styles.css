@@ -525,6 +525,7 @@ ul.row {
   padding: 10rem 40rem 2rem 0;
 }
 
+/* Section Latest news ============================= */
 
 .section-latest-news .row {
   flex-direction: row-reverse;
@@ -534,9 +535,6 @@ ul.row {
 
 /* Card (all styles)
       ============================= */
-
-/* Section Latest news ============================= */
-
 
 .card-category {
   color: var(--color-primary);
