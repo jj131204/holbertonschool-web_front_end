@@ -525,10 +525,18 @@ ul.row {
   padding: 10rem 40rem 2rem 0;
 }
 
+
+.section-latest-news .row {
+  flex-direction: row-reverse;
+}
+
 /*** 4. CARD ***/
 
 /* Card (all styles)
       ============================= */
+
+/* Section Latest news ============================= */
+
 
 .card-category {
   color: var(--color-primary);
@@ -653,8 +661,3 @@ ul.row {
   z-index: -1;
 }
 
-/* Section Latest news ============================= */
-
-.section-latest-news .row {
-  flex-direction: row-reverse;
-}
