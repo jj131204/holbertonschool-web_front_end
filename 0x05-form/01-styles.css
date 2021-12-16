@@ -648,8 +648,7 @@ ul.row {
 }
 
 /*** FORM ***/
-/* Comment section
-    ============================= */
+/* Comment section ============================= */
 
 .post-comments{
   width:80%;
@@ -661,8 +660,7 @@ ul.row {
   font-variant: small-caps;
 }
 
-/* Basic form
-    ============================= */
+/* Basic form ============================= */
 
 .form{
   display:flex;
